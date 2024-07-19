@@ -91,6 +91,81 @@ a {
   font-size: 1.6rem;
 }
 
-header__action--login{
+header__action--login {
   margin-right: 7px;
 }
+
+/* ============== hero ================= */
+.hero {
+  display: flex;
+  padding-top: 76px;
+  align-items: center;
+}
+
+.hero__content {
+  width: 44%;
+}
+
+.hero__media {
+  flex: 1;
+}
+
+.hero__heading {
+  color: #ffffff;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.hero__desc {
+  color: #c9d2da;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+  text-align: left;
+}
+
+.hero__row {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  column-gap: 38px;
+}
+
+.hero__phone {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.67;
+  text-align: center;
+}
+
+.hero__images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.hero__img{
+  object-fit: cover;
+  
+}
+.hero__img--large {
+  width: 330px;
+  height: 540px;
+  margin-right: -6px;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.hero__img--small {
+  width: 210px;
+  height: 410px;
+  gap: 0px;
+  border-radius: 0px 6px 6px 0px;
+  opacity: 0px;
+}
+
+
